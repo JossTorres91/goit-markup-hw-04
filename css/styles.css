@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+}
+body{
+    font-family: 'Roboto',
+    sans-serif;
+    width: 1600px;
+}
+body,
+.headernav,
+.filter button{
+    color: #212121;
+}
+header a,
+address a,
+address p{
+    font-style: normal;
+    text-decoration: none;
+}
+.webs{
+    font-family: 'Raleway',
+    sans-serif;
+}
+h1{
+    font-weight: 900;
+    font-size: 44px;
+}
+.servicebtn,
+.features th,
+h2,
+.title,
+.webs{
+    font-weight: 700;
+}
+.headernav,
+header>div,
+.name,
+.filter button{
+    font-weight: 500;
+}
+.features td,
+.position,
+address p,
+.footeradd,
+.category{
+    font-weight: 400;
+}
+.webs:hover,
+.webs:focus{
+    color: blueviolet;
+}
+.headernav:hover,
+.headerlink:hover,
+.footeradd:hover,
+.headernav:focus,
+.headerlink:focus,
+.footeradd:focus,
+.webs,
+.servicebtn:hover,
+.servicebtn:focus{
+    color: #2196F3;
+}
+.servicebtn:hover,
+.servicebtn:focus,
+.ourteamfig figure{
+    background-color:#fff;
+}
+.headerlink,
+.features td,
+.position,
+.category{
+    color: #757575;
+}
+.solutions,
+footer {
+    background-color: #2F303A
+}
+h1,
+.servicebtn,
+address p,
+.filter button:hover,
+.filter button:focus {
+    color: #fff;
+}
+.servicebtn {
+    border-style: none;
+    padding: 0px;
+    height: 50px;
+    width: 200px;
+}
+.category,
+.servicebtn {
+    line-height: 1.88;
+}
+.filter button,
+.servicebtn {
+    font-family: 'Roboto',
+        sans-serif;
+    border-radius: 4px;
+}
+.footeradd {
+    color: #ffffff99;
+}
+.webs {
+    font-size: 26px;
+}
+.headernav,
+.headerlink,
+.features th,
+.features td,
+address p,
+.footeradd {
+    font-size: 14px;
+}
+.servicebtn,
+.name,
+.position,
+.filter button,
+.category {
+    font-size: 16px;
+}
+h2 {
+    font-size: 36px;
+}
+.title {
+    font-size: 18px;
+}
+header nav,
+header div,
+.features th,
+h2,
+.name,
+.position,
+.webs {
+    line-height: 1.17;
+}
+h1 {
+    line-height: 1.36;
+}
+.features td,
+address p,
+.footeradd {
+    line-height: 1.71;
+}
+.title {
+    line-height: 2;
+}
+.servicebtn,
+.filter button {
+    cursor: pointer;
+}
+.filter button {
+    line-height: 1.63;
+    border-color: #212121;
+    border-width: 1px;
+}
+.filterbutton,
+.ourteam {
+    background-color: #F5F4FA;
+}
+.filter button:hover,
+.filter button:focus,
+.servicebtn {
+    background-color: #2196F3;
+}
+header {
+    box-sizing: content-box;
+    border-bottom: 1px solid #ececec;
+}
+main,
+header,
+header nav,
+header div,
+.wedo .wedopic,
+.ourteam,
+.ourteamfig,
+.section,
+.footeradd,
+.portfoliofig {
+    display: flex;
+}
+header,
+header nav,
+header div,
+.wedopic,
+.ourteamfig,
+.portfoliofig {
+    justify-content: space-between;
+}
+header nav {
+    width: 531px;
+    box-sizing: inherit;
+    padding: 24px 0px 25px 215px;
+}
+main,
+header nav,
+header div,
+.section {
+    align-items: center;
+}
+header div {
+    width: 303px;
+    box-sizing: inherit;
+    padding: 0px 219px 0px 0px;
+}
+.solutions,
+.wedo,
+.wedopic,
+.ourteam,
+.ourteamfig,
+.section,
+.portfoliofig {
+    width: 100%;
+}
+main,
+.wedo,
+.section {
+    flex-direction: column;
+}
+.container {
+    width: 1200px;
+}
+.ourteam {
+    justify-content: center;
+}
+.name,
+.position,
+h1 {
+    text-align: center;
+}
+.section {
+    padding: 94px 0px;
+}
+address {
+    padding: 60px 0px 60px 215px;
+}
+.portfoliofig {
+    flex-wrap: wrap;
+}
+.portfoliofig figure {
+    border-bottom: 1px solid #eee;
+}
