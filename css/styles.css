@@ -151,10 +151,9 @@ address p,
 }
 .filter button {
     line-height: 1.63;
-    border-color: #212121;
-    border-width: 1px;
+    border:none
 }
-.filterbutton,
+.filter button,
 .ourteam {
     background-color: #F5F4FA;
 }
@@ -176,7 +175,10 @@ header div,
 .ourteamfig,
 .section,
 .footeradd,
-.portfoliofig {
+.portfoliofig,
+.container,
+.solutions,
+.features {
     display: flex;
 }
 header,
@@ -189,18 +191,23 @@ header div,
 }
 header nav {
     width: 531px;
-    box-sizing: inherit;
     padding: 24px 0px 25px 215px;
+}
+header nav,
+header div{
+    box-sizing: inherit;
 }
 main,
 header nav,
 header div,
-.section {
+.section,
+.container,
+.solutions,
+.wedo {
     align-items: center;
 }
 header div {
     width: 303px;
-    box-sizing: inherit;
     padding: 0px 219px 0px 0px;
 }
 .solutions,
@@ -214,21 +221,19 @@ header div {
 }
 main,
 .wedo,
-.section {
+.section,
+.container,
+.solutions {
     flex-direction: column;
 }
 .container {
     width: 1200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+}    
 .ourteam {
     justify-content: center;
     padding: 94px 0px;
 }
 h1 {
-    text-align: center;
     margin-bottom: 30px;
 }
 .section {
@@ -240,13 +245,9 @@ address {
 .solutions{
     background: url('../images/pic01hw04.jpg'), rgba(47,48,58,0.4);
     padding: 200px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 .features{
     margin: 15px 0px 160px 0px;
-    display: flex;
 }
 .features div{
     width: 25%;
@@ -257,13 +258,11 @@ address {
 .wedo h2{
     padding-bottom: 55px;
 }
-.ourteam h2{
+.ourteam h2,
+.filter{
     padding-bottom: 50px;
 }
-.wedo{
-    align-items: center;
-}
-.name,.position{
+.name,.position, h1{
     text-align: center;
 }
 .ourteamfig figcaption{
@@ -278,9 +277,6 @@ address>.webs{
 address p{
     padding-bottom: 5px;
 }
-.filter{
-    padding-bottom: 50px;
-}
 .filter button{
     padding: 6px 24px;
 }
@@ -288,7 +284,7 @@ address p{
     flex-wrap: wrap;
 }
 .portfoliofig figcaption{
-    padding: 20px 0px;
+    padding: 20px 24px;
 }
 .title{
     padding-bottom: 4px;
@@ -298,4 +294,21 @@ address p{
 }
 .row1,.row2{
     margin-bottom: 30px;
+}
+.ourteamfig figure{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.portfoliofig figure:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.filter button:hover,
+.filter button:focus{
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
