@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    padding: 0px;
 }
 body{
     font-family: 'Roboto',
@@ -71,7 +72,6 @@ address p,
 .category{
     color: #757575;
 }
-.solutions,
 footer {
     background-color: #2F303A
 }
@@ -227,6 +227,7 @@ main,
 .position,
 h1 {
     text-align: center;
+    margin-bottom: 30px;
 }
 .section {
     padding: 94px 0px;
@@ -239,4 +240,11 @@ address {
 }
 .portfoliofig figure {
     border-bottom: 1px solid #eee;
+}
+.solutions{
+    background: url('../images/pic01hw04.jpg'), rgba(47,48,58,0.4);
+    padding: 200px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
