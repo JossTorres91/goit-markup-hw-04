@@ -27,7 +27,7 @@ h1{
     font-size: 44px;
 }
 .servicebtn,
-.features th,
+.theader,
 h2,
 .title,
 .webs{
@@ -39,7 +39,7 @@ header>div,
 .filter button{
     font-weight: 500;
 }
-.features td,
+.tdata,
 .position,
 address p,
 .footeradd,
@@ -67,7 +67,7 @@ address p,
     background-color:#fff;
 }
 .headerlink,
-.features td,
+.tdata,
 .position,
 .category{
     color: #757575;
@@ -84,7 +84,7 @@ address p,
 }
 .servicebtn {
     border-style: none;
-    padding: 0px;
+    padding: 10px 2px;
     height: 50px;
     width: 200px;
 }
@@ -106,8 +106,8 @@ address p,
 }
 .headernav,
 .headerlink,
-.features th,
-.features td,
+.theader,
+.tdata,
 address p,
 .footeradd {
     font-size: 14px;
@@ -127,7 +127,7 @@ h2 {
 }
 header nav,
 header div,
-.features th,
+.theader,
 h2,
 .name,
 .position,
@@ -137,7 +137,7 @@ h2,
 h1 {
     line-height: 1.36;
 }
-.features td,
+.tdata,
 address p,
 .footeradd {
     line-height: 1.71;
@@ -171,7 +171,7 @@ main,
 header,
 header nav,
 header div,
-.wedo .wedopic,
+.wedo, .wedopic,
 .ourteam,
 .ourteamfig,
 .section,
@@ -219,12 +219,14 @@ main,
 }
 .container {
     width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .ourteam {
     justify-content: center;
+    padding: 94px 0px;
 }
-.name,
-.position,
 h1 {
     text-align: center;
     margin-bottom: 30px;
@@ -235,16 +237,65 @@ h1 {
 address {
     padding: 60px 0px 60px 215px;
 }
-.portfoliofig {
-    flex-wrap: wrap;
-}
-.portfoliofig figure {
-    border-bottom: 1px solid #eee;
-}
 .solutions{
     background: url('../images/pic01hw04.jpg'), rgba(47,48,58,0.4);
     padding: 200px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.features{
+    margin: 15px 0px 160px 0px;
+    display: flex;
+}
+.features div{
+    width: 25%;
+}
+.theader{
+    padding-bottom: 60px;
+}
+.wedo h2{
+    padding-bottom: 55px;
+}
+.ourteam h2{
+    padding-bottom: 50px;
+}
+.wedo{
+    align-items: center;
+}
+.name,.position{
+    text-align: center;
+}
+.ourteamfig figcaption{
+    padding: 30px 0px;
+}
+.name{
+    padding-bottom: 10px;
+}
+address>.webs{
+    padding-bottom: 9px;
+}
+address p{
+    padding-bottom: 5px;
+}
+.filter{
+    padding-bottom: 50px;
+}
+.filter button{
+    padding: 6px 24px;
+}
+.portfoliofig{
+    flex-wrap: wrap;
+}
+.portfoliofig figcaption{
+    padding: 20px 0px;
+}
+.title{
+    padding-bottom: 4px;
+}
+.portfoliofig figure{
+    border: 1px solid #eee;
+}
+.row1,.row2{
+    margin-bottom: 30px;
 }
