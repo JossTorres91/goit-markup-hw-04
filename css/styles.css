@@ -51,26 +51,31 @@ address p,
     color: blueviolet;
 }
 .headernav:hover,
-.headerlink:hover,
+.mail a:hover,
+.phone a:hover,
 .footeradd:hover,
 .headernav:focus,
-.headerlink:focus,
+.mail a:focus,
+.phone a:focus,
 .footeradd:focus,
 .webs,
 .servicebtn:hover,
 .servicebtn:focus{
     color: #2196F3;
+    fill: #2196F3;
 }
 .servicebtn:hover,
 .servicebtn:focus,
 .ourteamfig figure{
     background-color:#fff;
 }
-.headerlink,
+.mail a,
+.phone a,
 .tdata,
 .position,
 .category{
     color: #757575;
+    fill: #757575;
 }
 footer {
     background-color: #2F303A
@@ -105,7 +110,8 @@ address p,
     font-size: 26px;
 }
 .headernav,
-.headerlink,
+.mail a,
+.phone a,
 .theader,
 .tdata,
 address p,
@@ -126,7 +132,8 @@ h2 {
     font-size: 18px;
 }
 header nav,
-header div,
+.mail a,
+.phone a,
 .theader,
 h2,
 .name,
@@ -146,7 +153,9 @@ address p,
     line-height: 2;
 }
 .servicebtn,
-.filter button {
+.filter button,
+.icon-sobre,
+.icon-telefono {
     cursor: pointer;
 }
 .filter button {
@@ -178,7 +187,9 @@ header div,
 .portfoliofig,
 .container,
 .solutions,
-.features {
+.features,
+.mail a,
+.phone a {
     display: flex;
 }
 header,
@@ -186,7 +197,9 @@ header nav,
 header div,
 .wedopic,
 .ourteamfig,
-.portfoliofig {
+.portfoliofig,
+.mail a,
+.phone a {
     justify-content: space-between;
 }
 header nav {
@@ -203,12 +216,14 @@ header div,
 .section,
 .container,
 .solutions,
-.wedo {
+.wedo,
+.phone a,
+.mail a {
     align-items: center;
 }
 header div {
-    width: 303px;
-    padding: 0px 219px 0px 0px;
+    width: 329px;
+    padding-right: 219px;
 }
 .solutions,
 .wedo,
@@ -311,4 +326,18 @@ address p{
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.icon-sobre{
+    width: 16px;
+    height: 12px;
+}
+.icon-telefono{
+    width: 10px;
+    height: 16px;
+}
+.mail a{
+    width: 161px;
+}
+.phone a{
+    width: 138px;
 }
