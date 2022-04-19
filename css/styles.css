@@ -155,7 +155,17 @@ address p,
 .servicebtn,
 .filter button,
 .icon-sobre,
-.icon-telefono {
+.icon-telfono,
+.icon-instagram,
+.icon-facebook,
+.icon-linkedin,
+.icon-twitter,
+.icon-logo01, 
+.icon-logo02, 
+.icon-logo03, 
+.icon-logo04, 
+.icon-logo05, 
+.icon-logo06 {
     cursor: pointer;
 }
 .filter button {
@@ -178,7 +188,7 @@ header {
 main,
 header,
 header nav,
-header div,
+.headercontact,
 .wedo, .wedopic,
 .ourteam,
 .ourteamfig,
@@ -194,12 +204,13 @@ header div,
 }
 header,
 header nav,
-header div,
+.headercontact,
 .wedopic,
 .ourteamfig,
 .portfoliofig,
 .mail a,
-.phone a {
+.phone a,
+.features {
     justify-content: space-between;
 }
 header nav {
@@ -207,12 +218,12 @@ header nav {
     padding: 24px 0px 25px 215px;
 }
 header nav,
-header div{
+.headercontact{
     box-sizing: inherit;
 }
 main,
 header nav,
-header div,
+.headercontact,
 .section,
 .container,
 .solutions,
@@ -221,7 +232,7 @@ header div,
 .mail a {
     align-items: center;
 }
-header div {
+.headercontact {
     width: 329px;
     padding-right: 219px;
 }
@@ -255,23 +266,24 @@ h1 {
     padding: 94px 0px;
 }
 address {
-    padding: 60px 0px 60px 215px;
+    padding: 60px 70px 60px 215px;
 }
 .solutions{
     background: url('../images/pic01hw04.jpg'), rgba(47,48,58,0.4);
     padding: 200px 0px;
+    margin-top: 16px;
 }
 .features{
-    margin: 15px 0px 160px 0px;
+    margin: 78px 0px 80px 0px;
 }
-.features div{
-    width: 25%;
+.featuressection{
+    width: 22.5%;
 }
 .theader{
-    padding-bottom: 60px;
+    padding: 30px 0px 10px 0px;
 }
 .wedo h2{
-    padding-bottom: 55px;
+    padding-bottom: 50px;
 }
 .ourteam h2,
 .filter{
@@ -341,3 +353,120 @@ address p{
 .phone a{
     width: 138px;
 }
+.icon-antena,
+.icon-reloj,
+.icon-diagrama,
+.icon-astronauta{
+    width: 70px;
+    height: 70px;
+}
+.featicon{
+    background-color: #F5F4FA;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0px;
+}
+.features{
+    justify-content: space-between;
+}
+.wedo{
+    margin-bottom: 94px;
+}
+.ourteamicons{
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-around;
+}
+.icon-instagram,
+.icon-facebook,
+.icon-twitter,
+.icon-linkedin{
+    width: 20px;
+    height: 20px;
+}
+.clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.clientsicon{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.clients h2{
+    padding-bottom: 50px;
+    line-height: 1.17;
+}
+.icon-logo01,
+.icon-logo02,
+.icon-logo03,
+.icon-logo04,
+.icon-logo05,
+.icon-logo06{
+    width: 106px;
+    height: 60px;
+}
+footer{
+    display: flex;
+    align-items: center;
+}
+.findus{
+    display: flex;
+    flex-direction: column;
+    width: 206px;
+    padding: 72px 0px 100px 0px;  
+}
+.footericons{
+    display: flex;
+    justify-content: space-between;
+}
+.findus span{
+    padding-bottom: 20px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+}
+.ourteamicons a{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #AFB1B8;
+}
+.ourteamicons a:hover {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #2196F3;
+    fill: #fff;
+    cursor: pointer;
+}
+.footericons a {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff1a;
+    fill: #fff;
+    border-radius: 50%;
+}
+.footericons a:hover {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2196F3;
+    fill: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
