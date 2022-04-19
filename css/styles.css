@@ -469,4 +469,25 @@ footer{
     border-radius: 50%;
     cursor: pointer;
 }
-
+.clientsicon div{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    fill: #AFB1B8;
+}
+.clientsicon div:hover{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #2196F3;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    fill: #2196F3;
+}
