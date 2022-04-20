@@ -30,7 +30,8 @@ h1{
 .theader,
 h2,
 .title,
-.webs{
+.webs,
+.findus span{
     font-weight: 700;
 }
 .headernav,
@@ -84,7 +85,8 @@ h1,
 .servicebtn,
 address p,
 .filter button:hover,
-.filter button:focus {
+.filter button:focus,
+.findus span {
     color: #fff;
 }
 .servicebtn {
@@ -98,7 +100,9 @@ address p,
     line-height: 1.88;
 }
 .filter button,
-.servicebtn {
+.servicebtn,
+.clientsicon div,
+.clientsicon div:hover {
     font-family: 'Roboto',
         sans-serif;
     border-radius: 4px;
@@ -115,7 +119,8 @@ address p,
 .theader,
 .tdata,
 address p,
-.footeradd {
+.footeradd,
+.findus span {
     font-size: 14px;
 }
 .servicebtn,
@@ -138,7 +143,9 @@ header nav,
 h2,
 .name,
 .position,
-.webs {
+.webs,
+.findus span,
+.clients h2 {
     line-height: 1.17;
 }
 h1 {
@@ -165,7 +172,11 @@ address p,
 .icon-logo03, 
 .icon-logo04, 
 .icon-logo05, 
-.icon-logo06 {
+.icon-logo06,
+.ourteamicons a:hover,
+.footericons a:hover,
+.clientsicon div,
+.clientsicon div:hover {
     cursor: pointer;
 }
 .filter button {
@@ -173,12 +184,15 @@ address p,
     border:none
 }
 .filter button,
-.ourteam {
+.ourteam,
+.featicon {
     background-color: #F5F4FA;
 }
 .filter button:hover,
 .filter button:focus,
-.servicebtn {
+.servicebtn,
+.ourteamicons a:hover,
+.footericons a:hover { 
     background-color: #2196F3;
 }
 header {
@@ -199,7 +213,20 @@ header nav,
 .solutions,
 .features,
 .mail a,
-.phone a {
+.phone a,
+.featicon,
+.ourteamicons,
+.clients,
+.clientsicon,
+footer,
+.findus,
+.footericons,
+.ourteamicons a,
+.ourteamicons a:hover,
+.footericons a,
+.footericons a:hover,
+.clientsicon div,
+.clientsicon div:hover {
     display: flex;
 }
 header,
@@ -210,7 +237,9 @@ header nav,
 .portfoliofig,
 .mail a,
 .phone a,
-.features {
+.features,
+.clientsicon,
+.footericons {
     justify-content: space-between;
 }
 header nav {
@@ -229,7 +258,15 @@ header nav,
 .solutions,
 .wedo,
 .phone a,
-.mail a {
+.mail a,
+.clients,
+footer,
+.ourteamicons a,
+.ourteamicons a:hover,
+.footericons a,
+.footericons a:hover,
+.clientsicon div,
+.clientsicon div:hover {
     align-items: center;
 }
 .headercontact {
@@ -242,21 +279,24 @@ header nav,
 .ourteam,
 .ourteamfig,
 .section,
-.portfoliofig {
+.portfoliofig,
+.clients,
+.clientsicon {
     width: 100%;
 }
 main,
 .wedo,
 .section,
 .container,
-.solutions {
+.solutions,
+.clients,
+.findus {
     flex-direction: column;
 }
 .container {
     width: 1200px;
 }    
 .ourteam {
-    justify-content: center;
     padding: 94px 0px;
 }
 h1 {
@@ -282,11 +322,10 @@ address {
 .theader{
     padding: 30px 0px 10px 0px;
 }
-.wedo h2{
-    padding-bottom: 50px;
-}
 .ourteam h2,
-.filter{
+.filter,
+.wedo h2,
+.clients h2{
     padding-bottom: 50px;
 }
 .name,.position, h1{
@@ -360,21 +399,11 @@ address p{
     width: 70px;
     height: 70px;
 }
-.featicon{
-    background-color: #F5F4FA;
-    display: flex;
-    justify-content: center;
-    padding: 25px 0px;
-}
-.features{
-    justify-content: space-between;
-}
 .wedo{
     margin-bottom: 94px;
 }
 .ourteamicons{
     padding-top: 16px;
-    display: flex;
     justify-content: space-around;
 }
 .icon-instagram,
@@ -383,21 +412,6 @@ address p{
 .icon-linkedin{
     width: 20px;
     height: 20px;
-}
-.clients{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-.clientsicon{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.clients h2{
-    padding-bottom: 50px;
-    line-height: 1.17;
 }
 .icon-logo01,
 .icon-logo02,
@@ -408,86 +422,52 @@ address p{
     width: 106px;
     height: 60px;
 }
-footer{
-    display: flex;
-    align-items: center;
-}
 .findus{
-    display: flex;
-    flex-direction: column;
     width: 206px;
-    padding: 72px 0px 100px 0px;  
-}
-.footericons{
-    display: flex;
-    justify-content: space-between;
+    padding: 72px 0px 100px 0px;
 }
 .findus span{
     padding-bottom: 20px;
-    color: #fff;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.17;
 }
-.ourteamicons a{
+.ourteamicons a,
+.ourteamicons a:hover,
+.footericons a,
+.footericons a:hover{
     width: 44px;
     height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    fill: #AFB1B8;
 }
-.ourteamicons a:hover {
-    width: 44px;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.ourteamicons a:hover,
+.footericons a,
+.footericons a:hover{
     border-radius: 50%;
-    background-color: #2196F3;
     fill: #fff;
-    cursor: pointer;
+
 }
 .footericons a {
-    width: 44px;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #ffffff1a;
-    fill: #fff;
-    border-radius: 50%;
-}
-.footericons a:hover {
-    width: 44px;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #2196F3;
-    fill: #fff;
-    border-radius: 50%;
-    cursor: pointer;
 }
 .clientsicon div{
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    fill: #AFB1B8;
 }
 .clientsicon div:hover{
     width: 170px;
     height: 92px;
     border: 1px solid #2196F3;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
     fill: #2196F3;
+}
+.clientsicon div:hover,
+.ourteam,
+.featicon,
+.ourteamicons a,
+.ourteamicons a:hover,
+.footericons a,
+.footericons a:hover,
+.clientsicon div{
+    justify-content: center;
+}
+.clientsicon div,
+.ourteamicons a{
+    fill: #AFB1B8;
 }
