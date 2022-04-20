@@ -471,3 +471,6 @@ address p{
 .ourteamicons a{
     fill: #AFB1B8;
 }
+.featicon{
+    padding: 25px 0px;
+}
